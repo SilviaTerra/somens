@@ -1,0 +1,61 @@
+
+.jumbotron {
+	background-image: url('images/loblolly-pine-plantation.jpg');
+	height: 500px;
+}
+
+.jumbotron h1 {
+	color: white;
+}
+
+.jumbotron p {
+	color: white;
+}
+
+.nav {
+ 	background-color: #28364f;
+ 	margin-bottom:15px;
+}
+
+.nav li {
+	display: inline;
+	padding: 5px;
+}
+
+.nav a {
+	color: white;
+}
+
+.homeContainer {
+	margin: 50px;
+	padding: 10px; 
+}
+
+.footer {
+	height: 50px;
+}
+
+.footer, .push {
+    height: 50px; /* .push must be the same height as .footer */
+    background-color: #28364f;
+}
+
+.container {
+	margin: auto;
+}
+
+* {
+	margin: 0;
+}
+
+html, body {
+	height: 100%;
+}
+
+.wrapper {
+	min-height: 100%;
+	height: auto !important; /* This line and the next line are not necessary unless you need IE6 support */
+	height: 100%;
+	margin: 0 auto -50px; /* the bottom margin is the negative value of the footer's height */
+}
+
