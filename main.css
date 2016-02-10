@@ -59,4 +59,15 @@ html, body {
 	padding: 10px; 
 }
 
+.aux-container {
+  margin: 50px;
+	padding: 10px;
+	text-align: center;
+}
+
+.aux-container p {
+  font-size: 1.5em;
+  
+}
+
 
