@@ -70,4 +70,15 @@ html, body {
   
 }
 
+.pm-container {
+  margin: 50px;
+	padding: 10px;
+	text-align: center;
+}
+
+.pm-container p {
+  font-size: 1.5em;
+  
+}
+
 
