@@ -12,6 +12,8 @@ html, body {
     background-color: #28364f;
 }
 
+/*:last-child { margin-bottom: 50px !important;} */
+
 .container {
 	margin: auto;
 }
@@ -61,7 +63,10 @@ html, body {
 }
 
 .aux-container {
-  margin: 20px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  margin-right: 20px;
+  margin-left: 20px;
 	padding: 10px;
 	text-align: center;
 }
@@ -70,6 +75,13 @@ html, body {
   font-size: 1.5em;
   
 }
+
+.aux-container li {
+  text-align: left;
+  font-size: 1.25em;
+  padding: 5px;
+}
+
 
 .pm-container {
   margin: 50px;
@@ -82,10 +94,13 @@ html, body {
   
 }
 
-.aux-container li {
-  text-align: left;
-  font-size: 1.25em;
-  padding: 5px;
+.awards-container {
+  margin: 20px;
+	text-align: center;
+}
+
+.awards-container p {
+  font-size: 1.5em;
 }
 
 .award-list {
