@@ -61,7 +61,7 @@ html, body {
 }
 
 .aux-container {
-  margin: 50px;
+  margin: 20px;
 	padding: 10px;
 	text-align: center;
 }
@@ -88,4 +88,16 @@ html, body {
   padding: 5px;
 }
 
+.award-list {
+	padding: 10px;
+	text-align: center;
+}
 
+table.center {
+  margin-left:auto; 
+  margin-right:auto;
+}
+table.center, th, td {
+    padding-left: 15px;
+    padding-right: 15px;
+}
